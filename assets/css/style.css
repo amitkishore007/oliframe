@@ -1,0 +1,135 @@
+.error-msg,.success-msg{
+	display: none;
+}
+.progressBar{
+
+	padding: 2px;
+	text-align: center;
+	display: none;
+
+}
+
+.progressBar .bar{
+	background-color: #000 ;
+	height: 5px;
+
+}
+.progressBar .bar .percent{
+
+	color: #000;
+}
+.product-msg{
+	    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 20px;
+    display: none;
+}
+
+.category-list ul{
+	
+	list-style: none;
+
+}
+.category-list ul li{
+	margin-top: 5px;
+	padding: 5px;
+	border:1px solid #ccc;
+	padding-bottom: 8px;
+	background: #fafafa;
+}
+.category-list ul li:hover{
+	    color: #2ea8e5;
+    background: #fff;
+}
+li .cat-action {
+	position: absolute;
+	right: 100px;
+	color: #333;
+}
+li .cat-action a{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	
+}
+.col-md-12{
+    float: none !important;
+   }
+.color-code{
+	height: 30px;
+	width: 30px;
+	display:inline-block;
+	border: 1px solid lightgray;
+}
+.color-name{
+	display: inline-block;
+	vertical-align: inherit;
+}
+
+.product-loader{
+	position: absolute;
+    top: 50%;
+    left: 45%;
+    z-index: 999;
+    background-color: rgba(115, 112, 112, 0.27);
+    display: none;
+}
+
+.ajax-modal-image{
+	/*width: 900px;*/
+}
+.ajax-modal-image ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin:3px;
+}
+.ajax-modal-image label > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+.ajax-modal-image label > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+}
+.ajax-modal-image label > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+  border:2px solid #f00;
+}
+.ajax-modal-image .img-div{
+	/*margin:5px;*/
+	max-height: 500px;
+	overflow-y: scroll;
+}
+.ajax-modal-image .img-div .images{
+	padding-left: 10px;
+}
+.variation-checkbox {
+	display: block !important;
+}
+.excel-loader{
+	    margin: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    margin-left: -15px;
+    /*background-color: #000;*/
+    background-color: rgba(68, 157, 200, 0.3);
+    display: none;
+}
+.excel-loader img{
+
+	position: relative;
+    top: 35%;
+    left: 40%;
+}
+.variation-color .icheck-inline label{
+	display: inline-block;
+	float: left;
+	width: 22%;
+
+}
+
+.variation-color .icheck-inline{
+    max-height: 200px;
+    overflow-y: scroll;
+}
